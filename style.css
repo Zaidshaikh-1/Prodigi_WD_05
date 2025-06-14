@@ -19,11 +19,13 @@ input {
   padding: 10px;
   width: 60%;
   margin-top: 10px;
+  border-radius: 20px;
 }
 
 button {
   padding: 10px 20px;
   margin-top: 10px;
+  border-radius: 20px;
 }
 
 #weatherResult {
@@ -37,6 +39,15 @@ button {
   margin: 10px auto;
   width: 250px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#weatherResult > div {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
 }
 
 .card img {
