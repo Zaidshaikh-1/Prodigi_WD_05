@@ -130,6 +130,7 @@ body.dark-mode #toggleDarkMode {
   font-size: 0.9rem;
   background-color: #eee;
   color: #000;
+  border-radius: 20px;
 }
 
 body.dark-mode #unitToggle {
